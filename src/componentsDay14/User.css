@@ -1,0 +1,30 @@
+
+ul{
+    color: white;
+    list-style: none;
+    padding-right: 1rem;
+    margin-top: 0.5rem;
+    margin-left: -1rem;
+}
+img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-left: 0.5rem;
+}
+.back{
+    background-color: rgb(61, 61, 61);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5rem;
+    height: 7rem;
+    width: 18rem;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+.back:hover{
+    background-color: black;
+    outline: 10px solid rgb(1, 223, 16);
+    transition: 0.8s;
+}

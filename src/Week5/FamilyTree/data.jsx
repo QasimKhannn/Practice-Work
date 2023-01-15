@@ -1,0 +1,41 @@
+let Members=[{
+    type:"Parents",
+    family:{
+        first:{
+            image:"https://picsum.photos/200/300",
+            name:"John",
+            age:23,
+            city:"NewYork",
+            relation:"Father"
+        },
+        second:{
+            image:"https://picsum.photos/200/300",
+            name:"Samantha",
+            age:24,
+            city:"NewYork",
+            relation:"Mother"
+        }
+    }
+},
+{
+    type:"GrandParents",
+    family:{
+        first:{
+            image:"https://picsum.photos/200/300",
+            name:"John",
+            age:23,
+            city:"NewYork",
+            relation:"Father"
+        },
+        second:{
+            image:"https://picsum.photos/200/300",
+            name:"Samantha",
+            age:24,
+            city:"NewYork",
+            relation:"Mother"
+        }
+    }
+}
+]
+
+export default Members

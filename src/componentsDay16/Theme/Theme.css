@@ -1,0 +1,17 @@
+
+.first{
+    display: flex;
+    text-align: end;
+}
+
+.second{
+    color: white;
+    height: fit-content;
+    width: 60vh;
+    background-color: black;
+}
+p{
+    height: 50%;
+    width: 50%;
+    text-align: center;
+}

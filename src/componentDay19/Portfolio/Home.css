@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.main ul{
+    list-style: none;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+}
+.main a{
+    text-decoration: none;
+    color: rgb(214, 212, 212);
+    display: inline;
+    float: left;
+    margin-right: 1.5rem;
+}
+.main a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color:rgb(24, 210, 110) ;
+    text-underline-offset: 0.5rem;
+    color: white;
+}
+.main a:focus{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color:rgb(24, 210, 110) ;
+    text-underline-offset: 0.5rem;
+}
+.main h1{
+    font-size: 50px;
+    margin-bottom: 1.5rem;
+}
+p{
+    color: rgb(214, 212, 212);
+    font-size: 18px;
+}
+u{  
+    color: white;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.5rem;
+    text-decoration-color: rgb(24, 210, 110);
+}
